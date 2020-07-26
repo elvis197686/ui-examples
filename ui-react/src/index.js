@@ -5,6 +5,8 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
+  // It is standard to wrap the App with something - e.g. for React use "Provider store={createStore(rootReducer)}"
+  // or for e.g. GraphQL use Apollo
   <React.StrictMode>
     <App />
   </React.StrictMode>,
